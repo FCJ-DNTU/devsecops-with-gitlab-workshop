@@ -1,6 +1,5 @@
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
-canonifyURLs = true
 
 # For search functionality
 [outputs]
@@ -19,7 +18,7 @@ home = [ "HTML", "RSS", "JSON"]
   
 [Languages]
 [Languages.en]
-title = "AWS Account Setup"
+title = "AWS System Manager"
 weight = 1
 languageName = "English"
 
@@ -30,7 +29,7 @@ url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
 
 [Languages.vi]
-title = "Thiết lập AWS Account"
+title = "AWS System Manager"
 weight = 2
 languageName = "Tiếng Việt"
 
@@ -39,4 +38,3 @@ name = "<i class='fab fa-facebook'></i> AWS Study Group"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
-
