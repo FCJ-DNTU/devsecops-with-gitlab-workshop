@@ -43,7 +43,13 @@ Chúng ta vào pipeline editor nhánh mới vừa tạo và tiến hành
 
 Nhập dòng lệnh sau đây
 
-================================================================
+```bash
+variables:
+    USER_PROJECT: "ecommerce"
+    PATH_PROJECT: "/home/${USER_PROJECT}/${CI_PROJECT_NAME}"
+    IMAGE_VERSION: "${CI_REGISTRY_USER}/${CI_PROJECT_NAME}-${USER_PROJECT}:${CI_COMMIT_REF_NAME}_${CI_COMMIT_SHORT_SHA}"
+    TRIVYFS_REPORT: "trivyfs_scan${CI_PROJECT_NAME}_${CI_COMMIT_REF_NAME}_${CI_COMMIT_SHORT_SHA}_report"
+
 
 {{% notice info %}}
 Mình đã lược bớt những stage không liên quan để pipeline nhanh chóng hơn. Sau này chúng ta sẽ tổng hợp lại các stage thành một file lớn để mọi người có thể tham khảo

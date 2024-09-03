@@ -42,7 +42,13 @@ Go to the pipeline editor of the newly created branch and make edits:
 
 Enter the following command:
 
-================================================================
+```bash
+variables:
+    USER_PROJECT: "ecommerce"
+    PATH_PROJECT: "/home/${USER_PROJECT}/${CI_PROJECT_NAME}"
+    IMAGE_VERSION: "${CI_REGISTRY_USER}/${CI_PROJECT_NAME}-${USER_PROJECT}:${CI_COMMIT_REF_NAME}_${CI_COMMIT_SHORT_SHA}"
+    TRIVYFS_REPORT: "trivyfs_scan${CI_PROJECT_NAME}_${CI_COMMIT_REF_NAME}_${CI_COMMIT_SHORT_SHA}_report"
+
 
 {{% notice info %}}
 I have omitted unrelated stages to make the pipeline faster. Later, I will consolidate all stages into one large file for reference.
