@@ -178,9 +178,9 @@ Nhấp vào view pipeline
 
 ![image.png](/images/5-cicdonaec2/5.3-cicdgitlab/image10.png?featherlight=false&width=60pc)
 
-Bạn thấy ở đây nó ghi là 0 jobs có nghĩa là khi mà nó đọc file gitlab-ci.yml thì không có job nào ược thực hiện đây là vì ở trên mình có một thuộc tính là only tags. Có nghĩa là các job chỉ có thể chạy khi mà bạn tạo tag.
+Bạn thấy ở đây nó ghi là 0 jobs có nghĩa là khi mà nó đọc file gitlab-ci.yml thì không có job nào ược thực hiện đây là vì ở trên chúng ta có một thuộc tính là only tags. Có nghĩa là các job chỉ có thể chạy khi mà bạn tạo tag.
 
-Bây giờ mình chỉ muốn khi commit vào nhánh main sẽ không có pipeline thực hiện trừ khi tạo tags. Chúng ta sẽ vào Settings → CI/CD → Runners → Expand → Disable Instance Runner
+Bây giờ chúng ta chỉ muốn khi commit vào nhánh main sẽ không có pipeline thực hiện trừ khi tạo tags. Chúng ta sẽ vào Settings → CI/CD → Runners → Expand → Disable Instance Runner
 
 ![image.png](/images/5-cicdonaec2/5.3-cicdgitlab/image11.png?featherlight=false&width=60pc)
 

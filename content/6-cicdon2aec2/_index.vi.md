@@ -1,5 +1,5 @@
 +++
-title = "Triển khai CI/CD Pipeline trên hai Instance"
+title = "Triển khai CI/CD trên hai Instance"
 date = "`r Sys.Date()`" 
 weight = 6
 chapter = false

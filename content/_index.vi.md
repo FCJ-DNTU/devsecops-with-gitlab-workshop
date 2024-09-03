@@ -16,7 +16,15 @@ Bài lab sẽ hướng dẫn bạn từng bước để thiết lập một quy 
 
 #### Nội dung chính
 
-1. [Tạo tài khoản AWS](1-create-new-aws-account/)
-2. [Thiết lập MFA cho tài khoản AWS (Root)](2-mfa-setup-for-aws-user-(root)/)
-3. [Tài khoản và Nhóm Admin](3-create-admin-user-and-group/)
-4. [Hỗ trợ Xác thực Tài khoản](4-verify-new-account/)
+1. [Giới thiệu về Gitlab](1-introduction)
+2. [Các Bước Chuẩn Bị](2-preparation)
+3. [Triển khai dự án thủ công](3-implementproject)
+4. [Thiết lập dự án trên Gitlab](4-setupgitlab)
+5. [Triển khai CI/CD trên cùng một Instance](5-cicdonaec2)
+6. [Triển khai CI/CD trên hai Instance](6-cicdon2aec2)
+7. [Triển khai SAST](7-sast)
+8. [Triển khai SCA](8-sca)
+9. [Triển khai Image Scan](9-imagescan)
+10. [Triển khai DAST](10-dast)
+11. [Triển khai Performance Testing](11-performancetesting)
+12. [Dọn dẹp tài nguyên](12-cleanup)

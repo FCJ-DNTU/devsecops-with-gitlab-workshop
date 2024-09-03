@@ -207,7 +207,7 @@ Kết quả chạy đã thành công
 
 ![image.png](/images/6-cicdon2aec2/6.3-cicddockerhub/image45.png?featherlight=false&width=60pc)
 
-Để tiết kiệm thời gian thì mình sẽ tiến hành mô phỏng trên deploy Intance luôn bời vì nó đã có src code để push image lên registry bạn sẽ push image theo định dạng sau:
+Để tiết kiệm thời gian thì chúng ta sẽ tiến hành mô phỏng trên deploy Intance luôn bời vì nó đã có src code để push image lên registry bạn sẽ push image theo định dạng sau:
 
 ```bash
 domain/project/repo:tag

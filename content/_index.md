@@ -16,7 +16,15 @@ The lab will guide you step-by-step to set up a complete DevSecOps process on th
 
 #### Main Content
 
-1. [Creating a new AWS Account](1-create-new-aws-account/)
-2. [Setting up MFA for the AWS Account root user](2-MFA-Setup-For-AWS-User-(root))
-3. [Creating an Administrator Accounts and Groups](3-create-admin-user-and-group/)
-4. [Getting support for Account Authentication](4-verify-new-account/)
+1. [Introduction to Gitlab](1-introduction)
+2. [Preparation Steps](2-preparation)
+3. [Manual Project Implementation](3-implementproject)
+4. [Setting Up a Project on Gitlab](4-setupgitlab)
+5. [Deploying CI/CD on a Single Instance](5-cicdonaec2)
+6. [Deploying CI/CD on Two Instances](6-cicdon2aec2)
+7. [Deploying SAST](7-sast)
+8. [Deploying SCA](8-sca)
+9. [Deploying Image Scan](9-imagescan)
+10. [Deploying DAST](10-dast)
+11. [Deploying Performance Testing](11-performancetesting)
+12. [Cleaning Up Resources](12-cleanup)

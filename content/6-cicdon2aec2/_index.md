@@ -1,5 +1,5 @@
 +++
-title = "Deploying CI/CD Pipeline on Two Instances"
+title = "Deploying CI/CD on Two Instances"
 date = "`r Sys.Date()`" 
 weight = 6
 chapter = false

@@ -67,7 +67,7 @@ Sau đây là hướng dẫn về truy cập và tạo tài khoản bằng Gitla
 
 ### 2. Làm quen với giao diện của Gitlab
 
-Đầu tiên mình phải làm quan với giao diện của Gitlab đã, nếu như đây là lần đầu bạn dùng Gitlab, thì Gitlab sẽ bắt bạn tạo một project mới khi vào, ở đây mình tạo 1 group có tên là `ecommerce` và có project name là `frontend` , và ô bên dưới mình không tích chọn tạo file README. Nếu các bạn thích thì có thể sử dụng import (phần này mình sẽ nói thêm ở phần sau).
+Đầu tiên mình phải làm quan với giao diện của Gitlab đã, nếu như đây là lần đầu bạn dùng Gitlab, thì Gitlab sẽ bắt bạn tạo một project mới khi vào, ở đây chúng ta tạo 1 group có tên là `ecommerce` và có project name là `frontend` , và ô bên dưới chúng ta không tích chọn tạo file README. Nếu các bạn thích thì có thể sử dụng import (phần này mình sẽ nói thêm ở phần sau).
 
 ![image.png](/images/4-setupgitlab/4.1-getstarted/image7.png?featherlight=false&width=60pc)
 
@@ -101,7 +101,7 @@ Các lựa chọn điều hướng trong bảng lựa chọn ở bên phải s�
 
 ![image.png](/images/4-setupgitlab/4.1-getstarted/image10.png?featherlight=false&width=60pc)
 
-Ngoài ra thì bạn có thể setting account của mình bằng cách click vào edit profile 
+Ngoài ra thì bạn có thể setting account của chúng ta bằng cách click vào edit profile 
 
 ![image.png](/images/4-setupgitlab/4.1-getstarted/image11.png?featherlight=false&width=20pc)
 
