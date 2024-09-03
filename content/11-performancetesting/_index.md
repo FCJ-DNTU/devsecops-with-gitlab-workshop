@@ -22,7 +22,7 @@ Performance Testing focuses on three main areas:
 - Determining the maximum number of users the software can handle.
 - Assessing the software's stability under different load conditions.
 
-#### **Why Perform Performance Testing?**
+#### Why Perform Performance Testing?
 
 A software system's operation relies not only on available features but also on the application's performance. Performance testing plays a crucial role in detecting and resolving performance issues accurately.
 
@@ -33,7 +33,7 @@ Some examples of the importance of performance testing:
 - Among 500 Fortune companies, 56% experience downtime with an average of 1.6 hours per week, leading to losses of up to $896,000 per week and more than $46 million per year.
 - Google.com suffered a loss of $545,000 due to a 5-minute downtime on August 19, 2013.
 
-#### **Types of Performance Testing**
+#### Types of Performance Testing
 
 - **Load Testing** helps identify performance bottlenecks before the application is used in the real world.
 - **Stress Testing** determines the application's limits regarding handling traffic through workload experiments.
@@ -42,7 +42,7 @@ Some examples of the importance of performance testing:
 - **Volume Testing** assesses the performance of the software with varying database sizes.
 - **Scalability Testing** checks whether the application can efficiently handle increased load and plans for additional capacity if necessary.
 
-#### **Common Issues in Performance Testing**
+#### Common Issues in Performance Testing
 
 Performance issues can vary but commonly include problems related to speed, response time, load handling, or scalability. Performance Testing aims to address these issues and ensure applications run smoothly with more features.
 
@@ -53,7 +53,7 @@ Common issues include:
 - Poor scalability, where the software cannot handle an increasing number of users.
 - Bottlenecking, which occurs when errors degrade system performance due to faulty code or hardware issues such as CPU, memory, network, or operating system problems. The effective solution is to quickly identify and fix the faulty code.
 
-#### **Performance Testing Process**
+#### Performance Testing Process
 
 There are various methods used for performance testing to determine application compatibility with requirements or to compare the performance of different software.
 
@@ -69,7 +69,7 @@ Here is the process for conducting performance testing:
 - Monitor and analyze the results of the testing process.
 - Analyze, adjust, and re-test the collected results.
 
-#### **Performance Testing Metrics**
+#### Performance Testing Metrics
 
 Common metrics used in performance testing include:
 
@@ -98,7 +98,7 @@ Common metrics used in performance testing include:
 - **Thread Count** for tracking the application's running and operational status.
 - **Garbage Collection** for cleaning up unused data and freeing memory for the system.
 
-#### **Examples of Performance Testing for Applications**
+#### Examples of Performance Testing for Applications
 
 - Determine the response time if 1000 users access the website simultaneously, which should be under 4 seconds.
 - Assess the application's response time under both strong and weak connection conditions.
